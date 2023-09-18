@@ -2,10 +2,15 @@ import 'package:flutter/material.dart';
 
 class MyTheme {
   static Color primarylight = Color(0xff5D9CEC);
-  static Color backgrundColor = Color(0xffb6c99d);
+  static Color backgrundColor = Color(0xffDFECDB);
+  static Color backgrundColorDark = Color(0xff60E1E);
   static Color whitecolor = Color(0xffFFFFFF);
-  static Color blackcolor = Color(0xff303030);
+  static Color blackcolor = Color(0xff383838);
   static Color graycolor = Color(0xffb0b0b0);
+  static Color redcolor = Color(0xffEC4B4B);
+  static Color blaccolordark = Color(0xff141922);
+  static Color greenlight = Color(0xff61E757);
+
 
   static ThemeData LightMode = ThemeData(
       scaffoldBackgroundColor: backgrundColor,
