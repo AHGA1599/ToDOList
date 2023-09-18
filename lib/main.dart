@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo/home_screen/do_list_home.dart';
+import 'package:todo/home_screen/home_screen.dart';
 import 'package:todo/my_theme.dart';
 
 void main (){
@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      initialRoute:ToDoList.routeName ,
+      initialRoute:HomeScreen.routeName ,
       routes: {
-        ToDoList.routeName:(context)=> ToDoList(),
+        HomeScreen.routeName:(context)=> HomeScreen(),
 
       },
 theme: MyTheme.LightMode,

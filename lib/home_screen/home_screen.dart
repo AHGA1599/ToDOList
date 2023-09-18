@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:todo/home_screen/list_tab/list_screen.dart';
 import 'package:todo/home_screen/setting_tab/settings_screen.dart';
 
-class ToDoList extends StatefulWidget {
+class HomeScreen extends StatefulWidget {
   static const String routeName = 'toDoList';
 
   @override
-  State<ToDoList> createState() => _ToDoListState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _ToDoListState extends State<ToDoList> {
+class _HomeScreenState extends State<HomeScreen> {
   int selectedindex = 0;
 
   @override
